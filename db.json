@@ -2,38 +2,34 @@
   "categorias": [
     {
       "id": 1,
-      "titulo": "Front End",
+      "titulo": "Planejamento e Controle da Produção",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Vídeos para a Aula"
       }
     },
     {
       "id": 2,
       "titulo": "Logística",
-      "cor": "#6BD1FF",
+      "cor": "green",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Vídeos para a Aula"
       }
     },
     {
       "id": 3,
-      "titulo": "Bruno",
+      "titulo": "Gestão da Informação",
       "cor": "#red",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Vídeos para a Aula"
       }
     },
     {
       "id": 4,
-      "titulo": "Nova",
+      "titulo": "Tópicos Especiais em Logística",
       "cor": "#612424",
       "link_extra": {
-        "text": "Categoria nova",
-        "url": ""
+        "text": "Vídeos para Aula"
       }
     }
   ],
@@ -41,50 +37,116 @@
     {
       "id": 1,
       "categoriaId": 1,
-      "titulo": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "titulo": "Bem-vindo a UFF",
+      "url": "https://www.youtube.com/watch?v=K86o2jF2x2I"
     },
     {
-      "id": 2,
-      "categoriaId": 2,
-      "titulo": "Aula de Logística",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "titulo": "Grupo Petrópolis",
+      "url": "https://www.youtube.com/watch?v=PHravpbS81c",
+      "categoriaId": 1,
+      "id": 2
     },
     {
-      "titulo": "Video padrão",
-      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
+      "titulo": "Produção do Iphone",
+      "url": "https://www.youtube.com/watch?v=VR6JyQD5jrs",
       "categoriaId": 1,
       "id": 3
     },
     {
-      "titulo": "Video padrão",
-      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
-      "categoriaId": 1,
+      "titulo": "Centro de Tecnologia Canavieira",
+      "url": "https://www.youtube.com/watch?v=d7f_YAMfygY",
+      "categoriaId": 3,
       "id": 4
     },
     {
-      "titulo": "Video padrão",
-      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
-      "categoriaId": 1,
+      "titulo": "Cambridge Analytica",
+      "url": "https://www.youtube.com/watch?v=x1SnHHby0wA",
+      "categoriaId": 3,
       "id": 5
     },
     {
-      "titulo": "Avaliação Quantitativa Em Jogos Olímpicos: Uma Aplicação Da Modelagem Network Dea Com A Teoria Da Barganha",
-      "url": "https://www.youtube.com/watch?v=n7JMVEAjyfY",
-      "categoriaId": 1,
+      "titulo": "Transistores",
+      "url": "https://www.youtube.com/watch?v=WhNyURBiJcU",
+      "categoriaId": 3,
       "id": 6
     },
     {
-      "titulo": "Bruno",
-      "url": "https://www.youtube.com/watch?v=BC6rvbxdywg",
-      "categoriaId": 2,
+      "titulo": "Computação Quântica",
+      "url": "https://www.youtube.com/watch?v=fLN1zQOPT2E",
+      "categoriaId": 3,
       "id": 7
     },
     {
-      "titulo": "Avaliação Quantitativa Em Jogos Olímpicos: Uma Aplicação Da Modelagem Network Dea Com A Teoria Da Barganha",
-      "url": "https://www.youtube.com/watch?v=n7JMVEAjyfY",
-      "categoriaId": 4,
+      "titulo": "Criptografia",
+      "url": "https://www.youtube.com/watch?v=_Eeg1LxVWa8",
+      "categoriaId": 3,
       "id": 8
+    },
+    {
+      "titulo": "Amazon",
+      "url": "https://www.youtube.com/watch?v=qRQwkJLRfWw",
+      "categoriaId": 2,
+      "id": 9
+    },
+    {
+      "titulo": "Ocado",
+      "url": "https://www.youtube.com/watch?v=4DKrcpa8Z_E",
+      "categoriaId": 2,
+      "id": 10
+    },
+    {
+      "titulo": "Segunda Guerra Mundial",
+      "url": "https://www.youtube.com/watch?v=83vDQmlxGCg",
+      "categoriaId": 2,
+      "id": 11
+    },
+    {
+      "titulo": "Transporte Vidro",
+      "url": "https://www.youtube.com/watch?v=Z0O2CTXPsOY",
+      "categoriaId": 2,
+      "id": 12
+    },
+    {
+      "titulo": "Transporte de Cargas",
+      "url": "https://www.youtube.com/watch?v=MXYquyXkg0c",
+      "categoriaId": 2,
+      "id": 13
+    },
+    {
+      "titulo": "Transporte Aéreo",
+      "url": "https://www.youtube.com/watch?v=9aB9dcviJ5Q",
+      "categoriaId": 2,
+      "id": 14
+    },
+    {
+      "titulo": "Transporte Hidroviário",
+      "url": "https://www.youtube.com/watch?v=xbDuLZ3PzEg",
+      "categoriaId": 2,
+      "id": 15
+    },
+    {
+      "titulo": "História da Zona Franca de Manaus",
+      "url": "https://www.youtube.com/watch?v=xno0_mX8ynI",
+      "categoriaId": 2,
+      "id": 16
+    },
+    {
+      "titulo": "Zona Franca - Tv Folha",
+      "url": "https://www.youtube.com/watch?v=47zoiGVu-7Y",
+      "categoriaId": 2,
+      "id": 17
+    },
+    {
+      "titulo": "UFFLP",
+      "url": "https://www.youtube.com/watch?v=mNQTRKm7LIY",
+      "categoriaId": 4,
+      "id": 18
+    },
+    {
+      "titulo": "VBA",
+      "url": "https://www.youtube.com/watch?v=W-CiMlBrPn0&list=PLRCHPHbSf46V1XF9StfUwNsjLkHO4zxRX",
+      "categoriaId": 4,
+      "id": 19
     }
   ]
 }
