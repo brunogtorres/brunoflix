@@ -3,32 +3,22 @@ import { Link } from 'react-router-dom';
 import PageDefault from '..//../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import useForm from '../../../hocks/useForm';
 
 function CadastroCategoria(){
     const [categorias, setCategorias] = useState([]);
     const valoresIniciais = {
-        nome: '',
+        titulo: '',
         descricao: '',
         cor: '#000',
     }
-    const [values, setValues] = useState(valoresIniciais);
-
-    function setValue(chave, valor){
-      setValues({
-        ...values,
-        [chave]: valor,
-      })
-    }
-
-    function handleChange(infosDoEvento){
-      setValue(
-      infosDoEvento.target.getAttribute('name'),
-      infosDoEvento.target.value);
-    }
+    const {handleChange,values, clearForm} = useForm(valoresIniciais);
 
     useEffect(() => {
       if(window.location.href.includes('localhost')) {
-        const URL = 'http://localhost:8080/categorias'; 
+        const URL = window.location.hostname.includes('localhost')
+          ? 'http://localhost:8080/categorias'
+          : 'https://brunoflix2.herokuapp.com/categorias'; 
         fetch(URL)
          .then(async (respostaDoServer) =>{
           if(respostaDoServer.ok) {
@@ -52,14 +42,14 @@ function CadastroCategoria(){
               values
             ]);
 
-            setValues(valoresIniciais);
+            clearForm(valoresIniciais);
         }}>
         
         <FormField
           label="Nome da Categoria"
           type = "text"
-          name = "nome"
-          value={values.nome}
+          name = "titulo"
+          value={values.titulo}
           onChange={handleChange}
         />
 
@@ -84,11 +74,17 @@ function CadastroCategoria(){
         </Button>
       </form>
 
+      {categorias.length === 0 && (
+        <div>
+          Loading...
+        </div>
+      )}
+
       <ul>
         {categorias.map((categoria) => {
           return (
-            <li key={`${categoria.nome}`}>
-              {categoria.nome}
+            <li key={`${categoria.titulo}`}>
+              {categoria.titulo}
             </li>
           )
           })}

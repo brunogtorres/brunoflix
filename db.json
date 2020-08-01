@@ -1,16 +1,60 @@
 {
-    "categorias": [
-        {
-        "id": 1,
-        "nome": "Front End",
-        "descricao": "Uma Categoria Bacana",
-        "cor": "#cbd1ff"
-        },
-        {
-            "id": 2,
-            "nome": "Front End",
-            "descricao": "Uma Categoria Bacana",
-            "cor": "#cbd1ff"
-            }
-    ]
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Front End",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Formação de Front End na Alura",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Logística",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Formação de Front End na Alura",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "SEO com React",
+      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+    },
+    {
+      "id": 2,
+      "categoriaId": 2,
+      "titulo": "Aula de Logística",
+      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
+      "categoriaId": 1,
+      "id": 3
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
+      "categoriaId": 1,
+      "id": 4
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
+      "categoriaId": 1,
+      "id": 5
+    },
+    {
+      "titulo": "Avaliação Quantitativa Em Jogos Olímpicos: Uma Aplicação Da Modelagem Network Dea Com A Teoria Da Barganha",
+      "url": "https://www.youtube.com/watch?v=n7JMVEAjyfY",
+      "categoriaId": 1,
+      "id": 6
+    }
+  ]
 }
