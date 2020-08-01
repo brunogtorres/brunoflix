@@ -28,18 +28,6 @@
       }
     },
     {
-      "titulo": "Bruno2",
-      "text": "efdfds",
-      "cor": "#882b2b",
-      "id": 4
-    },
-    {
-      "titulo": "Aula",
-      "text": "tudo bom com todos?",
-      "cor": "#5c2e59",
-      "id": 5
-    },
-    {
       "titulo": "Nova",
       "descricao": "Categoria nova",
       "cor": "#612424",
@@ -47,7 +35,7 @@
         "text": "Categoria nova",
         "url": ""
       },
-      "id": 6
+      "id": 4
     }
   ],
   "videos": [
