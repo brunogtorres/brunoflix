@@ -5,6 +5,30 @@ import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hocks/useForm';
 import categoriasRepository from '../../../repositories/categorias';
+import styled from "styled-components";
+
+const Content = styled.button`
+color: var(--white);
+border: none;
+text-decoration-line: none;
+background-color: var(--black);
+box-sizing: border-box;
+cursor: pointer;
+padding: 16px 0px;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+outline: none;
+border-radius: 5px;
+text-decoration: none;
+display: inline-block;
+transition: opacity .3s;
+
+&:hover,
+&:focus {
+opacity: .5;
+}
+`;
 
 function CadastroCategoria(){
     const [categorias, setCategorias] = useState([]);
@@ -100,11 +124,11 @@ function CadastroCategoria(){
           )
           })}
       </ul>
-      
-
-        <Link to='/'>
+      <Content>
+        <Link to='/' id="clicar">
             Ir para Home
         </Link>
+      </Content>
       </PageDefault>
     )
   }

@@ -6,6 +6,30 @@ import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import videosRepository from '../../../repositories/videos';
 import categoriasRepository from '../../../repositories/categorias';
+import styled from "styled-components";
+
+const Content = styled.button`
+    color: var(--white);
+    border: none;
+    text-decoration-line: none;
+    background-color: var(--black);
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 16px 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: opacity .3s;
+
+    &:hover,
+    &:focus {
+    opacity: .5;
+    }
+    `;
 
 function CadastroVideo() {
   const history = useHistory();
@@ -77,10 +101,12 @@ function CadastroVideo() {
 
       <br />
       <br />
-
-      <Link to="/cadastro/categoria">
+      <Content>
+      <Link to="/cadastro/categoria" id="clicar">
         Cadastrar Categoria
       </Link>
+
+      </Content>
     </PageDefault>
   );
 }
