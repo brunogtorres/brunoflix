@@ -4,6 +4,7 @@ import PageDefault from '..//../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hocks/useForm';
+import categoriasRepository from '../../../repositories/categorias';
 
 function CadastroCategoria(){
     const [categorias, setCategorias] = useState([]);
@@ -37,6 +38,16 @@ function CadastroCategoria(){
         
         <form onSubmit={function handleSubmit(infosDoEvento){
             infosDoEvento.preventDefault();
+
+            categoriasRepository.create({
+              titulo: values.titulo,
+              cor: values.cor,
+              link_extra: {
+                text:values.descricao,
+                url:"",
+              }
+            });
+
             setCategorias([
               ...categorias,
               values
@@ -69,7 +80,7 @@ function CadastroCategoria(){
           onChange={handleChange}
         />
 
-        <Button>
+        <Button type='submit'>
           Cadastrar
         </Button>
       </form>

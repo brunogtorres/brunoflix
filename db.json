@@ -17,6 +17,37 @@
         "text": "Formação de Front End na Alura",
         "url": "https://www.alura.com.br/cursos-online-front-end"
       }
+    },
+    {
+      "id": 3,
+      "titulo": "Bruno",
+      "cor": "#red",
+      "link_extra": {
+        "text": "Formação de Front End na Alura",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      }
+    },
+    {
+      "titulo": "Bruno2",
+      "text": "efdfds",
+      "cor": "#882b2b",
+      "id": 4
+    },
+    {
+      "titulo": "Aula",
+      "text": "tudo bom com todos?",
+      "cor": "#5c2e59",
+      "id": 5
+    },
+    {
+      "titulo": "Nova",
+      "descricao": "Categoria nova",
+      "cor": "#612424",
+      "link_extra": {
+        "text": "Categoria nova",
+        "url": ""
+      },
+      "id": 6
     }
   ],
   "videos": [
@@ -55,6 +86,18 @@
       "url": "https://www.youtube.com/watch?v=n7JMVEAjyfY",
       "categoriaId": 1,
       "id": 6
+    },
+    {
+      "titulo": "Bruno",
+      "url": "https://www.youtube.com/watch?v=BC6rvbxdywg",
+      "categoriaId": 2,
+      "id": 7
+    },
+    {
+      "titulo": "Avaliação Quantitativa Em Jogos Olímpicos: Uma Aplicação Da Modelagem Network Dea Com A Teoria Da Barganha",
+      "url": "https://www.youtube.com/watch?v=n7JMVEAjyfY",
+      "categoriaId": 4,
+      "id": 8
     }
   ]
 }

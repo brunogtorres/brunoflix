@@ -26,7 +26,27 @@ function getAllWithVideos() {
     });
 }
 
+async function create(categoriaObject) {
+  return fetch(URL_CATEGORIES, {
+    method: 'POST',
+    headers: {
+      Accept: 'application/json',
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(categoriaObject),
+  }).then(async (responseServer) => {
+    if (responseServer.ok) {
+      const response = await responseServer.json();
+
+      return response;
+    }
+
+    throw new Error('Não foi possível se conectar ao servidor!');
+  });
+}
+
 export default {
   getAllWithVideos,
   getAll,
+  create
 };
