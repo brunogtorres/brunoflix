@@ -28,13 +28,13 @@
       }
     },
     {
-      "titulo": "Nova",
+      "id": 4,
+      "titulo": "Teste",
       "cor": "#612424",
       "link_extra": {
         "text": "Categoria nova",
         "url": ""
       },
-      "id": 4
     }
   ],
   "videos": [
