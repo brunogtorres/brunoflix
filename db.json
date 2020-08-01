@@ -29,7 +29,6 @@
     },
     {
       "titulo": "Nova",
-      "descricao": "Categoria nova",
       "cor": "#612424",
       "link_extra": {
         "text": "Categoria nova",
