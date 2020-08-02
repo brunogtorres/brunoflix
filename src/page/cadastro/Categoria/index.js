@@ -40,7 +40,7 @@ function CadastroCategoria(){
     const {handleChange,values, clearForm} = useForm(valoresIniciais);
 
     useEffect(() => {
-      if(window.location.href.includes('localhost')) {
+      
         const URL = 
       //  window.location.hostname.includes('localhost')
        //   ? 'http://localhost:8080/categorias'
@@ -55,7 +55,7 @@ function CadastroCategoria(){
           }
           throw new Error('Não foi possível pegar os dados');
          })
-      }    
+          
     }, []);
 
     return (
