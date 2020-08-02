@@ -5,7 +5,7 @@ import Slider, { SliderItem } from './components/Slider';
 import styled from 'styled-components';
 
 const Content = styled.p`
-padding-right:16px;
+padding-right: 20px;
 text-align: center;
 `;
 
@@ -39,12 +39,12 @@ function Carousel({
 
           return (
             <SliderItem key={video.titulo}>
-              <Content>
               <VideoCard
                 videoTitle={video.titulo}
                 videoURL={video.url}
                 categoryColor={categoryColor}
-              />
+                />
+                <Content>
                <p>{video.titulo}</p>
              </Content>
             </SliderItem>
