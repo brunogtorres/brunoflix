@@ -7,7 +7,8 @@ import useForm from '../../../hocks/useForm';
 import categoriasRepository from '../../../repositories/categorias';
 import styled from "styled-components";
 
-const Content = styled.button`
+const Content = styled.p`
+text-decoration: none;
 color: var(--white);
 border: none;
 text-decoration-line: none;
@@ -20,7 +21,6 @@ font-weight: bold;
 font-size: 16px;
 outline: none;
 border-radius: 5px;
-text-decoration: none;
 display: inline-block;
 transition: opacity .3s;
 
@@ -41,9 +41,11 @@ function CadastroCategoria(){
 
     useEffect(() => {
       if(window.location.href.includes('localhost')) {
-        const URL = window.location.hostname.includes('localhost')
-          ? 'http://localhost:8080/categorias'
-          : 'https://brunoflix2.herokuapp.com/categorias'; 
+        const URL = 
+      //  window.location.hostname.includes('localhost')
+       //   ? 'http://localhost:8080/categorias'
+       //   : 
+          'https://brunoflix2.herokuapp.com/categorias'; 
         fetch(URL)
          .then(async (respostaDoServer) =>{
           if(respostaDoServer.ok) {
@@ -125,8 +127,8 @@ function CadastroCategoria(){
           })}
       </ul>
       <Content>
-        <Link to='/' id="clicar">
-            Ir para Home
+        <Link to='/' style={{ textDecoration: 'none' }}>
+            <p>← Ir para Home</p>
         </Link>
       </Content>
       </PageDefault>

@@ -102,8 +102,8 @@ function CadastroVideo() {
       <br />
       <br />
       <Content>
-      <Link to="/cadastro/categoria" id="clicar">
-        Cadastrar Categoria
+      <Link to="/cadastro/categoria" style={{ textDecoration: 'none' }}>
+        Cadastrar Categoria →
       </Link>
 
       </Content>

@@ -2,6 +2,12 @@ import React from 'react';
 import { VideoCardGroupContainer, Title, ExtraLink } from './styles';
 import VideoCard from './components/VideoCard';
 import Slider, { SliderItem } from './components/Slider';
+import styled from 'styled-components';
+
+const Content = styled.p`
+text-align: center;
+padding-right:25px;
+`;
 
 function Carousel({
   ignoreFirstVideo,
@@ -38,6 +44,9 @@ function Carousel({
                 videoURL={video.url}
                 categoryColor={categoryColor}
               />
+             <Content>
+               <p>{video.titulo}</p>
+             </Content>
             </SliderItem>
           );
         })}
