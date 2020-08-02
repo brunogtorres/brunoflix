@@ -6,6 +6,7 @@ import Button from '../../../components/Button';
 import useForm from '../../../hocks/useForm';
 import categoriasRepository from '../../../repositories/categorias';
 import styled from "styled-components";
+import { ContentTable, TableContainer, } from './styles';
 
 const Content = styled.p`
 text-decoration: none;
@@ -111,20 +112,56 @@ function CadastroCategoria(){
         </Button>
       </form>
 
-        {categorias.length === 0 && (
-        <div>
-          Loading...
-        </div>)}
-
-      <ul>
-        {categorias.map((categoria) => {
-          return (
-            <li key={`${categoria.any}`}>
-              {categoria.titulo}
-            </li>
-          )
-          })}
-      </ul>
+      <TableContainer>
+            <ContentTable>
+              {categorias[0] === undefined ? (
+                <tbody>
+                  <tr>
+                    <td>Não existe categoria cadastrada!</td>
+                  </tr>
+                </tbody>
+              ) : (
+                <>
+                  <thead>
+                    <tr>
+                      <th>Nome</th>
+                      <th>Descrição</th>
+                      <th>Editar</th>
+                      <th>Remover</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {categorias.map((categoriaItem, index) => (
+                      <tr key={`${categoriaItem.titulo}${index}`}>
+                        <td>{categoriaItem.titulo}</td>
+                        <td>{categoriaItem.descricao}</td>
+                        <td>
+                          <Button
+                            variant="contained"
+                            color="primary"
+                            
+                            
+                          >
+                            Editar
+                          </Button>
+                        </td>
+                        <td>
+                          <Button
+                            variant="contained"
+                            color="secondary"
+                            
+                            
+                          >
+                            Remover
+                          </Button>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </>
+              )}
+            </ContentTable>
+          </TableContainer>
       <Content>
         <Link to='/' style={{ textDecoration: 'none' }}>
             <p>← Ir para Home</p>
