@@ -37,12 +37,12 @@
     {
       "id": 1,
       "categoriaId": 1,
-      "titulo": "Bem-vindo à UFF",
-      "url": "https://www.youtube.com/watch?v=K86o2jF2x2I"
+      "titulo": "Sequenciamento e Programação da Produção",
+      "url": "https://youtu.be/uQf-r2cCR70"
     },
     {
-      "titulo": "Grupo Petrópolis",
-      "url": "https://www.youtube.com/watch?v=PHravpbS81c",
+      "titulo": "OEE, TEEP e IROG",
+      "url": "https://www.youtube.com/watch?v=JogiCfxofJU",
       "categoriaId": 1,
       "id": 2
     },
@@ -143,10 +143,82 @@
       "id": 18
     },
     {
-      "titulo": "VBA",
-      "url": "https://www.youtube.com/watch?v=W-CiMlBrPn0&list=PLRCHPHbSf46V1XF9StfUwNsjLkHO4zxRX",
-      "categoriaId": 4,
+      "titulo": "LEC - Lote Econômico de Compra",
+      "url": "https://youtu.be/JRhdP55wGB0",
+      "categoriaId": 1,
       "id": 19
+    },
+    {
+      "titulo": "LEC - Quando pedir?",
+      "url": "https://youtu.be/fi7wY67z3oM",
+      "categoriaId": 1,
+      "id": 20
+    },
+    {
+      "titulo": "Módulos de Capacidade do MRPII",
+      "url": "https://youtu.be/0ZhoNeASCYk",
+      "categoriaId": 1,
+      "id": 21
+    },
+    {
+      "titulo": "Introdução a Logística",
+      "url": "https://youtu.be/3Pg4EiHomTA",
+      "categoriaId": 2,
+      "id": 22
+    },
+    {
+      "titulo": "O Produto Logístico",
+      "url": "https://youtu.be/UFfhYZV2u3k",
+      "categoriaId": 2,
+      "id": 23
+    },
+    {
+      "titulo": "Sequenciamento de Rotas",
+      "url": "https://youtu.be/kjQI52y5tIc",
+      "categoriaId": 2,
+      "id": 24
+    },
+    {
+      "titulo": "Segurança nas Redes",
+      "url": "https://youtu.be/66CeiPWfe4w",
+      "categoriaId": 3,
+      "id": 25
+    },
+    {
+      "titulo": "Capacidade - Teoria das Filas",
+      "url": "https://www.youtube.com/watch?v=QH16v8kdt1Y",
+      "categoriaId": 1,
+      "id": 26
+    },
+    {
+      "titulo": "O que é ERP?",
+      "url": "https://www.youtube.com/watch?v=GsshtMhb8b0",
+      "categoriaId": 1,
+      "id": 27
+    },
+    {
+      "titulo": "Cadeia de Abastecimento de um Hospital",
+      "url": "https://www.youtube.com/watch?v=mI0EOUDYDLo",
+      "categoriaId": 1,
+      "id": 28
+    },
+    {
+      "titulo": "Modelo Toyota de Produção - História",
+      "url": "https://www.youtube.com/watch?v=SH8IItbvH_0",
+      "categoriaId": 1,
+      "id": 29
+    },
+    {
+      "titulo": "Kanban",
+      "url": "https://www.youtube.com/watch?v=hb_9m53Ykuo",
+      "categoriaId": 1,
+      "id": 30
+    },
+    {
+      "titulo": "Evolução da Sociedade do Conhecimento",
+      "url": "https://www.youtube.com/watch?v=ZNEqk_u3twY",
+      "categoriaId": 3,
+      "id": 31
     }
   ]
 }
